@@ -1,0 +1,129 @@
+div {
+    margin: 0;
+    padding: 0;
+}
+
+div div {
+    background: #A4CA39;
+    position: relative;
+}
+
+.android {
+    margin: 120px auto;
+    height: 410px;
+    width: 330px;
+}
+
+.head {
+    height: 100px;
+    width: 220px;
+    top: 30px;
+    border-radius: 100px 100px 0px 0px;
+}
+
+.l-eye, .r-eye {
+    background: #fff;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    border-radius: 50%;
+    top: 40px;
+}
+
+.l-eye {
+    left: 50px;
+}
+
+.r-eye {
+    right: 50px;
+}
+
+.l-ant, .r-ant {
+    height: 50px;
+    width: 7px;
+    border-radius: 3px;
+    position: absolute;
+    top: -30px
+}
+
+.l-ant {
+    transform: rotate(-30deg);
+    left: 40px;
+}
+
+.r-ant {
+    transform: rotate(30deg);
+    right: 40px;
+}
+
+.body {
+    width: 220px;
+    height: 190px;
+    border-radius: 0 0 20px 20px;
+    top: 40px;
+}
+
+.l-arm, .r-arm, .l-leg, .r-leg {
+    width: 50px;
+    position: absolute;
+}
+
+.l-arm, .r-arm {
+    border-radius: 25px;
+    height: 150px;
+}
+
+.l-leg, .r-leg {
+    height: 80px;
+    top: 180px;
+    border-radius: 0px 0px 25px 25px;
+}
+
+.l-arm {
+    left: -60px;
+}
+
+.r-arm {
+    right: -60px;
+}
+
+.l-leg {
+    left: 40px;
+}
+
+.r-leg {
+    right: 40px;
+}
+
+/* Head Animation */
+
+.head:hover {
+    transform: rotate(5deg)translate(5px, -10px);
+}
+
+/* Arms Animation */
+
+.l-arm:hover {
+    transform: rotate(15deg)translate(-15px, -1px);
+    transition: transform ease 0.5s;
+}
+
+.r-arm:hover {
+    transform: rotate(-15deg)translate(15px, -1px);
+    transition: transform ease 0.5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
